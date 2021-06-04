@@ -209,8 +209,6 @@ public class Transformateur2Vente extends Transformateur2Production implements I
 							
 						}
 						
-						
-					
 					}
 				}
 				else {

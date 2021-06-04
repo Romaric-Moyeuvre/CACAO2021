@@ -42,6 +42,7 @@ public class Transformateur2AchatAO extends Transformateur2AchatCC implements IA
 
 	@Override
 	public PropositionVenteFevesAO choisirPropositionVenteAOFeves(List<PropositionVenteFevesAO> propositions) {
+		this.journal_achat.ajouter(propositions.toString());
 		int prop = 0;
 		double prix_min = propositions.get(0).getPrixKG();
 		for (int i=1;i<propositions.size();i++) {
